@@ -7,8 +7,8 @@
   --border-radius: 28px;
   --transition-duration: 0.5s;
   --transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
-  --article-width: clamp(280px, 32vw, 430px);
-  --article-height: clamp(480px, 74vh, 730px);
+  --article-width: clamp(280px, 29vw, 400px);
+  --article-height: clamp(460px, 68vh, 680px);
   --gap-size: clamp(16px, 2vw, 28px);
 }
 
@@ -44,7 +44,7 @@ body {
 
 .header-content {
   width: 100%;
-  padding: 2rem;
+  padding: 1.5rem 2rem 1rem;
   text-align: center;
   animation: slideDown 0.6s ease-out;
 }
@@ -82,7 +82,7 @@ body {
   justify-content: flex-start;
   width: 100%;
   min-height: 0;
-  padding: 1rem 0;
+  padding: 0.5rem 0 1rem;
   perspective: 1200px;
   will-change: transform;
 }
@@ -531,9 +531,23 @@ body {
 }
 
 @media (min-width: 1200px) {
+  .header-content {
+    padding-top: 1.25rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .header-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .header-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
   .swiper-article {
-    width: 450px;
-    height: 760px;
+    width: 400px;
+    height: 680px;
   }
 }
 
