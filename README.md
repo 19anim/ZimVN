@@ -1,4 +1,4 @@
-# ZIM Video Carousel Demo
+# ZIM
 
 Đây là một bản demo section carousel video viết bằng HTML, CSS và JavaScript thuần. Card ở giữa là card chính, các card xung quanh đóng vai trò thumbnail, có hover 3D tilt nhẹ, progress ring khi chờ hover để phát video, và cơ chế chuyển trạng thái rõ ràng giữa thumbnail, active card và video đang phát.
 
