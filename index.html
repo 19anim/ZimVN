@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Khoảnh khắc đáng nhớ - 6576 khoảnh khắc học tập từ 21 trung tâm ZIM"
+    />
+    <meta name="theme-color" content="#1a1a1a" />
+    <title>Khoảnh Khắc Đáng Nhớ - ZIM Academy</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <section
+      class="h-screen w-screen flex flex-col bg-[#1a1a1a]"
+      aria-label="Khoảnh khắc đáng nhớ - Video swiper carousel"
+    >
+      <div class="text-center header-content">
+        <h1 class="text-3xl font-bold text-gray-100 mb-4">6576 khoảnh khắc đáng nhớ</h1>
+        <p class="text-gray-300 text-lg">
+          Hàng ngàn khoảnh khắc đáng nhớ về hành trình học tập thú vị được ghi lại mỗi ngày tại
+        </p>
+        <p class="text-gray-300 text-lg">21 trung tâm Anh Ngữ ZIM trên toàn quốc.</p>
+      </div>
+
+      <div
+        id="swiperContainer"
+        class="flex-1 relative w-full overflow-hidden"
+        role="region"
+        aria-label="Video gallery"
+      >
+        <div
+          id="swiper"
+          class="flex gap-7 h-full transition-transform duration-500 ease-out"
+          style="transform: translateX(0px)"
+        ></div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </body>
+</html>
